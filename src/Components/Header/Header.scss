@@ -1,0 +1,76 @@
+.nav_inner{
+    padding-top: 30px;
+    .nav_list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // width: 1300px;
+        // gap: 20px;
+        flex-wrap: wrap;
+        .nav_list_item{
+            margin-left: 70px;
+        }
+        .nav_item1{
+            flex-grow: 1;
+            font-size: 40px;
+            color: #fff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .nav_item2{
+            input{
+                padding: 15px 130px 15px 20px;
+                border-radius: 35px;
+                border: none;
+                background-color: rgb(99, 96, 96);
+                color: #fff;
+            }
+            ::placeholder{
+                color: white;
+                text-transform: capitalize;
+            }
+            .nav_search{
+                position: absolute;
+                margin-left: -35px;
+                margin-top: 8px;
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+        .nav_item3{
+            button{
+                padding: 14px 40px 14px 40px;
+                border-radius: 35px;
+                border: none;
+                font-size: 18px;
+                background-color: rgb(62, 182, 238);
+                color: #fff;
+            }
+        }
+        .nav_item4{
+            font-size: 20px;
+            color: #fff;
+            span{
+                color: rgb(255, 123, 0);
+
+            }
+        }
+        .nav_item5{
+            button{
+                padding: 14px 60px 14px 60px;
+                border-radius: 35px;
+                border: none;
+                font-size: 18px;
+                background-color: rgb(255, 123, 0);
+                color: #fff;
+            }
+        }
+        .nav_item6{
+            .nav_sun{
+                margin-left: -7px;
+                color: rgb(255, 123, 0);
+                font-size: 25px;
+                margin-right: 42px;
+            }
+        }
+    }
+}
