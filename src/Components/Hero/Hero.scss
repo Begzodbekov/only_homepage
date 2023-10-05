@@ -14,7 +14,7 @@
             justify-content: space-between;
             align-items: center;
             background-color: rgb(194, 80, 4);
-            padding: 20px 50px 10px 20px;
+            padding: 20px 161px 10px 20px;
             margin-top: -5px;
             border-radius: 0px 0px 10px 10px;
             .hero_slider_title{
@@ -24,7 +24,7 @@
                 }
                 p{
                     font-size: 18px;
-                    width: 1200px;
+                    max-width: 1200px;
                     letter-spacing: 1px;
                     color: #fff;
                     margin-top: 10px;
@@ -36,7 +36,7 @@
                 border-radius: 30px;
                 font-size: 18px;
                 border: none;
-                margin-right: 120px;
+                margin-left: -120px;
             }
         }
     }
