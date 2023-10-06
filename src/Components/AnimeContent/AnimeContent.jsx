@@ -44,9 +44,11 @@ function AnimeContent() {
 
                     <div className='anime_left_slider1'>
                       <div className='anime_left_slidertop'>
-                        <h3>Yangi enimelar</h3>
-                        <i class="bi bi-caret-left-fill"></i>
-                        <i class="bi bi-caret-right-fill"></i>
+                      <h3>Yangi enimelar</h3>
+                        <span>
+                          <i class="bi bi-caret-left-fill anime_slider_arrow1"></i>
+                          <i class="bi bi-caret-right-fill anime_slider_arrow1"></i>
+                        </span>
                       </div>
                       <div className='anime_left_card1'>
                       <div>
@@ -66,9 +68,11 @@ function AnimeContent() {
 
                     <div className='anime_left_slider1'>
                       <div className='anime_left_slidertop'>
-                        <h3>Yangi enimelar</h3>
-                        <i class="bi bi-caret-left-fill"></i>
-                        <i class="bi bi-caret-right-fill"></i>
+                      <h3>Yangi enimelar</h3>
+                        <span>
+                          <i class="bi bi-caret-left-fill anime_slider_arrow1"></i>
+                          <i class="bi bi-caret-right-fill anime_slider_arrow1"></i>
+                        </span>
                       </div>
                       <div className='anime_left_card1'>
                         <div>
@@ -87,8 +91,8 @@ function AnimeContent() {
                     </div>
                   </div>
                   <div className="anime_bottom_right">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <img src="" alt="" />
+                    <h2 className='anime_bottom_righth2'>Lorem, ipsum dolor.</h2>
+                    <img className='anime_bottom_righimg' src="https://i.ytimg.com/vi/f-bAvlTfJI8/maxresdefault.jpg" alt="" />
                     <ul className='anime_bottom_rightList'>
                       <li className='anime_bottom_rightitem'>
                         <h2>1</h2>

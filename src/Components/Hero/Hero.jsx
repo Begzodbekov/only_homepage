@@ -17,7 +17,8 @@ function Hero() {
                         <button>Tomosha qilish</button>
                     </div>
                     <div className="hero_navigation">
-
+                        <i class="bi bi-caret-left-fill hero_navigation_left"></i>
+                        <i class="bi bi-caret-right-fill hero_navigaton_right"></i>
                     </div>
                 </div>
             </div>

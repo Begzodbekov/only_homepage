@@ -1,0 +1,21 @@
+.news_inner{
+    margin-top: 300px;
+    h2{
+        font-size: 25px;
+        letter-spacing: 1px;
+        color: rgb(194, 80, 4);
+        margin-left: 50px;
+    }
+    .news_cards{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+                width: 400px ;
+                height: 320px;
+                object-fit: cover;
+                border-radius: 15px
+        }
+    }
+}

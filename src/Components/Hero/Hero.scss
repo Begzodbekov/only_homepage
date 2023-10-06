@@ -1,6 +1,7 @@
 .hero_inner{
     margin-top: 50px;
     .hero_slider1{
+        position: relative;
         .hero_slider_im1{
             .hero_img1{
                 border-radius: 10px 10px 0px 0px;
@@ -38,6 +39,28 @@
                 border: none;
                 margin-left: -120px;
             }
+        }
+        .hero_navigation{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: -500px;
+            color: rgb(194, 80, 4);
+            .hero_navigation_left{
+                background-color: rgb(177, 172, 172);
+                opacity: 0.6;
+                font-size: 30px;
+                padding: 15px 2px 15px 2px;
+                border-radius: 0px 15px 15px 0px
+            }
+            .hero_navigaton_right{
+                background-color: rgb(177, 172, 172);
+                opacity: 0.6;
+                font-size: 30px;
+                padding: 15px 2px 15px 2px;
+                border-radius: 15px 0px 0px 15px
+            }
+
         }
     }
 }

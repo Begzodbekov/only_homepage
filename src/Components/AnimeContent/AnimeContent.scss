@@ -3,10 +3,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-top: 500px;
         .anime_bottom_left{
-            // margin-top: 50px;
             .anime_left_slider1{
                 margin-top: 50px;
+                position: relative;
                 .anime_left_slidertop{
                     padding-left: 10px;
                     margin-top: -20px;
@@ -81,13 +82,37 @@
             }
         }
         .anime_bottom_right{
+            border-radius: 7px;
+            margin-top: -130px;
+            background-color: #1C1C1C;
+            .anime_bottom_righth2{
+                font-size: 23px;
+                letter-spacing: 1px;
+                color: #fff;
+                margin-left: 30px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .anime_bottom_righimg{
+                width: 300px ;
+                height: 200px;
+            }
             .anime_bottom_rightList{
+                padding: 10px 20px 10px 20px;
                 .anime_bottom_rightitem{
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    margin-top: 10px;
+                    color: #fff;
+                    h2{
+                        padding: 5px 10px;
+                        border: 1px solid #fff;
+                        border-radius: 5px;
+                        color: #fff;
+                    }
                     img{
-                        width: 60px;
+                        width: 70px;
                         height: 70px;
                         object-fit: cover;
                     }
