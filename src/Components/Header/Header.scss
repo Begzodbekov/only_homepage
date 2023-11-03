@@ -1,5 +1,38 @@
 .nav_inner{
     padding-top: 30px;
+    .nav_search_list2{
+        display: block !important;
+    }
+    .nav_search_list{
+        display:none;
+        position: absolute;
+        z-index: 99;
+        // display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(63, 62, 62);
+        max-width: 300px;
+        height: 255px;
+        margin-left: 730px;
+        padding: 20px 10px;
+        padding-top: 10px;
+        overflow: auto;
+        .nav_itemsearch{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+                img{
+                    flex-grow: 1;
+                    width: 40px;
+                    height: 50px;
+                    object-fit: cover;            
+                    margin-right: 20px;
+                }
+            
+        }
+    }
     .nav_list{
         display: flex;
         justify-content: space-between;
@@ -7,6 +40,7 @@
         // width: 1300px;
         // gap: 20px;
         flex-wrap: wrap;
+
         .nav_list_item{
             margin-left: 70px;
         }
