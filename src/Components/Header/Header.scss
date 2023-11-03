@@ -15,7 +15,6 @@
         max-width: 300px;
         height: 255px;
         margin-left: 730px;
-        padding: 20px 10px;
         padding-top: 10px;
         overflow: auto;
         .nav_itemsearch{
@@ -23,6 +22,8 @@
             justify-content: space-between;
             align-items: center;
             margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
                 img{
                     flex-grow: 1;
                     width: 40px;
